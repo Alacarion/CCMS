@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Abap CCMS</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZABAPCCMSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZABAPCCMS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZABAPCCMS_GET_APP_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Abap CCMS Get Application Data</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <TYP>ZTTCCMS_PARAMETERS_VALUE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CCMS parameters value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZABAPCCMS_GET_DB_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Abap CCMS Get DB Data</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <TYP>ZTTCCMS_PARAMETERS_VALUE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CCMS parameters value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>ZABAPCCMS_GET_GW_DATA</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>Abap CCMS Get Gateway Data</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <TYP>ZTTCCMS_PARAMETERS_VALUE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CCMS parameters value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

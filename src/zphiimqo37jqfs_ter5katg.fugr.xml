@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Анализ ресурсов системы</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZPHIIMQO37JQFS_TER5KATGTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZPHIIMQO37JQFS_TER5KATG</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>PHIIMQO27JYP_LTPNST7RW</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>CCMS - Resources</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <TYP>ZTTCCMS_PARAMETERS_VALUE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CCMS parameters value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+    <item>
+     <FUNCNAME>PHIIMQO27JYRT5F4U3ED20</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>CCMS - Resources [DB]</SHORT_TEXT>
+     <TABLES>
+      <RSTBL>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <TYP>ZTTCCMS_PARAMETERS_VALUE</TYP>
+      </RSTBL>
+     </TABLES>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>T_PARAMETERS</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>CCMS parameters value</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
